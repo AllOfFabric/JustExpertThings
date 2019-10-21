@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "justexpertthings:mesh",
+    "justexpertthings:used_mesh",
+    "justexpertthings:worn_mesh",
+    "justexpertthings:breaking_mesh"
+  ]
+}

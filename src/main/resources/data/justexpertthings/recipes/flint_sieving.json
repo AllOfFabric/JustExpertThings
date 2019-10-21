@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "tag": "justexpertthings:meshes"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint",
+    "count": 1
+  }
+}

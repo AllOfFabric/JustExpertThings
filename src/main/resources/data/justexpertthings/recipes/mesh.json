@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ff",
+		"ff"
+	],
+	"key": {
+		"f": {
+			"item": "justexpertthings:plant_fiber"
+		}
+	},
+	"result": {
+		"item": "justexpertthings:mesh"
+	}
+}

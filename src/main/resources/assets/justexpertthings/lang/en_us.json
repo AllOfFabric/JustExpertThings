@@ -3,5 +3,11 @@
 	"item.justexpertthings.flint_pickaxe": "Flint Pickaxe",
 	"item.justexpertthings.flint_axe": "Flint Axe",
 	"item.justexpertthings.flint_hoe": "Flint Hoe",
-	"item.justexpertthings.flint_sword": "Flint Sword"
+	"item.justexpertthings.flint_sword": "Flint Sword",
+	
+	"item.justexpertthings.plant_fiber": "Plant Fiber",
+	"item.justexpertthings.mesh": "Mesh",
+	"item.justexpertthings.used_mesh": "Used Mesh",
+	"item.justexpertthings.worn_mesh": "Worn Mesh",
+	"item.justexpertthings.breaking_mesh": "Breaking Mesh"
 }

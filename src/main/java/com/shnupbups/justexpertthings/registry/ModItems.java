@@ -13,11 +13,18 @@ import com.shnupbups.justexpertthings.tools.ModShovelItem;
 import com.shnupbups.justexpertthings.tools.ModSwordItem;
 
 public class ModItems {
-	public static final Item FLINT_SHOVEL = new ModShovelItem(FlintToolMaterial.FLINT, 1.5F, -3.0F, new Item.Settings().group(ItemGroup.TOOLS));
-	public static final Item FLINT_PICKAXE = new ModPickaxeItem(FlintToolMaterial.FLINT, 1, -2.8F, new Item.Settings().group(ItemGroup.TOOLS));
-	public static final Item FLINT_AXE = new ModAxeItem(FlintToolMaterial.FLINT, 6.5F, -3.2F, new Item.Settings().group(ItemGroup.TOOLS));
-	public static final Item FLINT_HOE = new ModHoeItem(FlintToolMaterial.FLINT, -2.8F, new Item.Settings().group(ItemGroup.TOOLS));
-	public static final Item FLINT_SWORD = new ModSwordItem(FlintToolMaterial.FLINT, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT));
+	public static final Item FLINT_SHOVEL = new ModShovelItem(FlintToolMaterial.FLINT, 1.5F, -3.0F, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1));
+	public static final Item FLINT_PICKAXE = new ModPickaxeItem(FlintToolMaterial.FLINT, 1, -2.8F, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1));
+	public static final Item FLINT_AXE = new ModAxeItem(FlintToolMaterial.FLINT, 6.5F, -3.2F, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1));
+	public static final Item FLINT_HOE = new ModHoeItem(FlintToolMaterial.FLINT, -2.8F, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1));
+	public static final Item FLINT_SWORD = new ModSwordItem(FlintToolMaterial.FLINT, 3, -2.4F, new Item.Settings().group(ItemGroup.COMBAT).maxCount(1));
+	
+	public static final Item PLANT_FIBER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+	
+	public static final Item BREAKING_MESH = new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(1));
+	public static final Item WORN_MESH = new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(1).recipeRemainder(BREAKING_MESH));
+	public static final Item USED_MESH = new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(1).recipeRemainder(WORN_MESH));
+	public static final Item MESH = new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(1).recipeRemainder(USED_MESH));
 	
 	public static void init() {
 		register(FLINT_PICKAXE, "flint_pickaxe");
@@ -25,6 +32,12 @@ public class ModItems {
 		register(FLINT_SHOVEL, "flint_shovel");
 		register(FLINT_HOE, "flint_hoe");
 		register(FLINT_SWORD, "flint_sword");
+		
+		register(PLANT_FIBER, "plant_fiber");
+		register(MESH, "mesh");
+		register(USED_MESH, "used_mesh");
+		register(WORN_MESH, "worn_mesh");
+		register(BREAKING_MESH, "breaking_mesh");
 	}
 	
 	public static <T extends Item> T register(T item, String name) {
