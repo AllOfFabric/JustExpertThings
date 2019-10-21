@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ff",
+		"f#",
+		" #"
+	],
+	"key": {
+		"f": {
+			"item": "minecraft:flint"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "justexpertthings:flint_axe"
+	}
+}

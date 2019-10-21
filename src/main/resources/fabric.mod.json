@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "justexpertthings",
+  "version": "1.0.0",
+
+  "name": "Just Expert Things",
+  "description": "Adds features that could be useful for Expert style pack makers",
+  "authors": [
+    "Shnupbups"
+  ],
+
+  "license": "LGPLv3",
+  "icon": "assets/justexpertthings/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shnupbups.justexpertthings.JustExpertThings"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.6.1",
+    "fabric": "*"
+  }
+}
