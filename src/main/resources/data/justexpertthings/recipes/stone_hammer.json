@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ccc",
+		"c#c",
+		" # "
+	],
+	"key": {
+		"f": {
+			"item": "minecraft:cobblestone"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "justexpertthings:stone_hammer"
+	}
+}

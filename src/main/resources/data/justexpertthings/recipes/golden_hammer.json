@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ggg",
+		"g#g",
+		" # "
+	],
+	"key": {
+		"f": {
+			"item": "minecraft:gold_ingot"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "justexpertthings:golden_hammer"
+	}
+}

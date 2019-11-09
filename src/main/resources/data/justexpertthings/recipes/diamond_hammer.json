@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ddd",
+		"d#d",
+		" # "
+	],
+	"key": {
+		"f": {
+			"item": "minecraft:diamond"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "justexpertthings:diamond_hammer"
+	}
+}

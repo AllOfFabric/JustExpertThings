@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "justexpertthings:wooden_hammer",
+    "justexpertthings:stone_hammer",
+    "justexpertthings:iron_hammer",
+    "justexpertthings:gold_hammer",
+    "justexpertthings:diamond_hammer",
+    "justexpertthings:flint_hammer"
+  ]
+}
